@@ -7,7 +7,11 @@ MacOS only.
 
 
 ## Usage 
-Open Terminal ([CMD] + [Space] -> Type: "terminal" -> Hit [ENTER]), paste ```curl -O https://raw.githubusercontent.com/DrDBanner/startstreams/refs/heads/main/startstreams.sh && chmod +x startstreams.sh``` and exectute with `sh startstreams.sh` or `./startstreams.sh`.
+Open Terminal ([CMD] + [Space] -> Type: "terminal" -> Hit [ENTER]), paste 
+
+```curl -O https://raw.githubusercontent.com/DrDBanner/startstreams/refs/heads/main/startstreams.sh && chmod +x startstreams.sh``` 
+
+and exectute with `sh startstreams.sh` or `./startstreams.sh`.
 
 ## Notes: 
 - Be sure this script is executable: `chmod +x startstreams.sh`
