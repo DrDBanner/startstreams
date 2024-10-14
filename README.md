@@ -7,11 +7,11 @@ MacOS only.
 
 
 ## Usage 
-[Download startstreams.sh](https://github.com/DrDBanner/startstreams/blob/b1b50baa4c8b4780f5ea42f88f1da2ec7206c124/startstreams.sh) file, open Terminal, navigate to scripts location and exectute with sh startstreams.sh or ./startstreams.sh if the file has execution permission.
+[Download startstreams.sh](https://github.com/DrDBanner/startstreams/blob/b1b50baa4c8b4780f5ea42f88f1da2ec7206c124/startstreams.sh) file, open Terminal, navigate to scripts location and exectute with `sh startstreams.sh` or `./startstreams.sh` if the file has execution permission.
 
 ## Notes: 
-- Be sure this script is executable: chmod +x startstreams.sh
-- You can call the script twice to restart all streams. You can call it with the command line parameter kill sh ./startstreams.sh kill in oder to stop all streams.
+- Be sure this script is executable: `chmod +x startstreams.sh`
+- You can call the script twice to restart all streams. You can call it with the command line parameter kill `sh ./startstreams.sh kill` in oder to stop all streams.
 - VLC and Streamlink need to be installed. They'll get installed automatically if they're not present.
 - If you do have a Twitch channel subscription and if you do not enter your OAuthKey you'll face commercial breaks regularly.
 - Currently, some streams are hardcoded within the script, so if you wand to add or remove streams, open the file and alter it according to your needs. 
