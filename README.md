@@ -7,7 +7,7 @@ MacOS only.
 
 
 ## Usage 
-[Download startstreams.sh](https://github.com/DrDBanner/startstreams/blob/b1b50baa4c8b4780f5ea42f88f1da2ec7206c124/startstreams.sh) file, open Terminal, navigate to scripts location and exectute with `sh startstreams.sh` or `./startstreams.sh` if the file has execution permission.
+[Download startstreams.sh](https://github.com/DrDBanner/startstreams/blob/b1b50baa4c8b4780f5ea42f88f1da2ec7206c124/startstreams.sh) file, open Terminal (CMD+Space -> Type: terminal -> Hit ENTER), navigate to scripts location and exectute with `sh startstreams.sh` or `./startstreams.sh` if the file has execution permission.
 
 ## Notes: 
 - Be sure this script is executable: `chmod +x startstreams.sh`
