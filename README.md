@@ -1,6 +1,6 @@
 # startstreams
 
-**Effortlessly Open Multiple Video Streams via VLC Media Player**
+**Effortlessly Open Multiple Video Streams via VLC Media Player** 
 
 This script allows you to enjoy video streams in beautifully arranged small windows while keeping CPU usage minimal. macOS only sorry.
 
