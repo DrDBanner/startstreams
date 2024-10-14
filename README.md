@@ -6,6 +6,16 @@ This script allows you to enjoy video streams in beautifully arranged small wind
 
 ![screenshot](https://github.com/user-attachments/assets/8adb62a1-0515-48b2-8a49-8cabde01f480)
 
+## Notes
+
+- You can restart all streams by running the script again. To stop all streams, use the command:
+
+   ```./startstreams.sh kill```
+
+- The script automatically installs VLC and Streamlink if they are not already present on your system.
+- If you have a Twitch channel subscription and do not provide your OAuth key, you may encounter commercial breaks during streams.
+- Currently, some streams are hardcoded in the script. To customize, simply open the script file and modify the channels as needed.
+  
 ## Usage
 
 To get started, follow these steps:
@@ -13,7 +23,7 @@ To get started, follow these steps:
 1. Open Terminal by pressing **[CMD] + [Space]**, typing "Terminal", and hitting **[ENTER]**.
 2. Copy and paste the following command into the terminal:
 
-   ```
+   ```bash
    curl -O https://raw.githubusercontent.com/DrDBanner/startstreams/refs/heads/main/startstreams.sh && chmod +x startstreams.sh
    ```
 
@@ -24,17 +34,6 @@ To get started, follow these steps:
    or 
 
    `./startstreams.sh`
-
-## Notes
-
-- Ensure the script is executable with `chmod +x startstreams.sh`.
-- You can restart all streams by running the script again. To stop all streams, use the command:
-
-   ```sh ./startstreams.sh kill```
-
-- The script automatically installs VLC and Streamlink if they are not already present on your system.
-- If you have a Twitch channel subscription and do not provide your OAuth key, you may encounter commercial breaks during streams.
-- Currently, some streams are hardcoded in the script. To customize, simply open the script file and modify the channels as needed.
 
 ### How to Obtain Your Twitch OAuth Key
 
