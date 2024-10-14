@@ -1,2 +1,20 @@
 # startstreams
 Open video streams via VLC media player, which gives you beautiful small windows side by side each while consuming very little CPU power.
+MacOS only.
+
+
+## Usage 
+Download file, open Terminal, navigate to scripts location and exectute with sh startstreams.sh or ./startstreams.sh if the file has execution permission.
+
+## Notes: 
+- Be sure this script is executable: chmod +x startstreams.sh
+- You can call the script twice to restart all streams. You can call it with the command line parameter kill sh ./startstreams.sh kill in oder to stop all streams.
+- VLC and Streamlink need to be installed. They'll get installed automatically if they're not present.
+- If you do have a Twitch channel subscription and if you do not enter your OAuthKey you'll face commercial breaks regularly.
+
+### How to obtain TwitchOAuthKey 
+In order to get your personal OAuth token from Twitch's website which identifies your account, open Twitch.tv in your web browser and after a successful login, open the developer tools by pressing F12 or CTRL+SHIFT+I. Then navigate to the "Console" tab or its equivalent of your web browser and execute the following JavaScript snippet:
+
+`document.cookie.split("; ").find(item=>item.startsWith("auth-token="))?.split("=")[1]`
+
+Copy the resulting string consisting of 30 alphanumerical characters into the TwitchOAuthKey variable field within the startstreams.sh file.
