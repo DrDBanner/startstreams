@@ -1,28 +1,49 @@
 # startstreams
-Open video streams via VLC media player, which gives you beautiful small windows side by side each while consuming very little CPU power.
-MacOS only.
 
-<img width="1280" alt="screenshot" src="https://github.com/user-attachments/assets/8adb62a1-0515-48b2-8a49-8cabde01f480">
+**Effortlessly Open Multiple Video Streams via VLC Media Player**
 
+This script allows you to enjoy video streams in beautifully arranged small windows while keeping CPU usage minimal. macOS only sorry.
 
+![screenshot](https://github.com/user-attachments/assets/8adb62a1-0515-48b2-8a49-8cabde01f480)
 
-## Usage 
-Open Terminal ([CMD] + [Space] -> Type: "terminal" -> Hit [ENTER]), paste 
+## Usage
 
-```curl -O https://raw.githubusercontent.com/DrDBanner/startstreams/refs/heads/main/startstreams.sh && chmod +x startstreams.sh``` 
+To get started, follow these steps:
 
-and exectute with `sh startstreams.sh` or `./startstreams.sh`.
+1. Open Terminal by pressing **[CMD] + [Space]**, typing "Terminal", and hitting **[ENTER]**.
+2. Copy and paste the following command into the terminal:
 
-## Notes: 
-- Be sure this script is executable: `chmod +x startstreams.sh`
-- You can call the script twice to restart all streams. You can call it with the command line parameter kill `sh ./startstreams.sh kill` in oder to stop all streams.
-- VLC and Streamlink need to be installed. They'll get installed automatically if they're not present.
-- If you do have a Twitch channel subscription and if you do not enter your OAuthKey you'll face commercial breaks regularly.
-- Currently, some streams are hardcoded within the script, so if you wand to add or remove streams, open the file and alter it according to your needs. 
+   ```
+   curl -O https://raw.githubusercontent.com/DrDBanner/startstreams/refs/heads/main/startstreams.sh && chmod +x startstreams.sh
+   ```
 
-### How to obtain TwitchOAuthKey 
-In order to get your personal OAuth token from Twitch's website which identifies your account, open Twitch.tv in your web browser and after a successful login, open the developer tools by pressing F12 or CTRL+SHIFT+I. Then navigate to the "Console" tab or its equivalent of your web browser and execute the following JavaScript snippet:
+3. Execute the script with:
 
-`document.cookie.split("; ").find(item=>item.startsWith("auth-token="))?.split("=")[1]`
+   `sh startstreams.sh`
 
-Copy the resulting string consisting of 30 alphanumerical characters into the TwitchOAuthKey variable field within the startstreams.sh file.
+   or 
+
+   `./startstreams.sh`
+
+## Notes
+
+- Ensure the script is executable with `chmod +x startstreams.sh`.
+- You can restart all streams by running the script again. To stop all streams, use the command:
+
+   ```sh ./startstreams.sh kill```
+
+- The script automatically installs VLC and Streamlink if they are not already present on your system.
+- If you have a Twitch channel subscription and do not provide your OAuth key, you may encounter commercial breaks during streams.
+- Currently, some streams are hardcoded in the script. To customize, simply open the script file and modify the channels as needed.
+
+### How to Obtain Your Twitch OAuth Key
+
+To get your personal OAuth token from Twitch:
+
+1. Visit **Twitch.tv** and log into your account.
+2. Open your browser's Developer Tools (press **F12** or **CTRL + SHIFT + I**).
+3. Navigate to the **Console** tab and execute the following JavaScript code:
+
+   `document.cookie.split("; ").find(item => item.startsWith("auth-token="))?.split("=")[1]`
+
+4. Copy the resulting 30-character alphanumeric string and paste it into the `TwitchOAuthKey` variable in the `startstreams.sh` file.
