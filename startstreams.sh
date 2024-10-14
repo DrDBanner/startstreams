@@ -4,7 +4,7 @@ TwitchOAuthKey=''
 
 # Global comma-separated channel strings for Twitch and YouTube. Basically, you can add any string that's supported by Streamlink (TwitchChannelsString) or VLC (YouTubeChannelsString).
 TwitchChannelsString="https://www.twitch.tv/k1m6a"
-YouTubeChannelsString="https://www.youtube.com/watch?v=LWwvKar_epc,https://www.youtube.com/watch?v=c2YUV_0ubhc,https://www.youtube.com/watch?v=GZksw7k5ykU,https://www.youtube.com/watch?v=bQ9R0ERP1YI,https://www.youtube.com/watch?v=_6Wigc8yKRA"
+YouTubeChannelsString="https://www.youtube.com/watch?v=LWwvKar_epc,https://www.youtube.com/watch?v=c2YUV_0ubhc,https://www.youtube.com/watch?v=GZksw7k5ykU,https://www.youtube.com/watch?v=_6Wigc8yKRA"
 
 VlcStartupParameters="--playlist-autostart"
 
