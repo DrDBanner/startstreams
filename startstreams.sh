@@ -2,9 +2,17 @@
 # Put your personal Twitch OAuth Key here, to prevent commercial breaks.
 TwitchOAuthKey=''
 
-# Global comma-separated channel strings for Twitch and YouTube. Basically, you can add any string that's supported by Streamlink (TwitchChannelsString) or VLC (YouTubeChannelsString).
+# Global comma-separated channel strings for Twitch and YouTube
 TwitchChannelsString="https://www.twitch.tv/k1m6a"
-YouTubeChannelsString="https://www.youtube.com/watch?v=LWwvKar_epc,https://www.youtube.com/watch?v=c2YUV_0ubhc,https://www.youtube.com/watch?v=GZksw7k5ykU,https://www.youtube.com/watch?v=_6Wigc8yKRA"
+YouTubeChannelsString="https://www.youtube.com/watch?v=_6Wigc8yKRA,https://www.youtube.com/watch?v=GZksw7k5ykU,https://www.youtube.com/watch?v=ZZA-DCFnc2g, https://www.youtube.com/watch?v=LWwvKar_epc"
+
+## Notes for streams
+# https://www.youtube.com/watch?v=ZZA-DCFnc2g, ES Bookmap N
+# https://www.youtube.com/watch?v=LWwvKar_epc, ES Bookmap Y
+# https://www.youtube.com/watch?v=c2YUV_0ubhc, Liquidose N
+# https://www.youtube.com/watch?v=ZZA-DCFnc2g, Bookmap ES Y
+# https://www.youtube.com/watch?v=GZksw7k5ykU, kimba Kingfisher Y
+# https://www.youtube.com/watch?v=_6Wigc8yKRA, TV BTC Bookmap Y
 
 VlcStartupParameters="--playlist-autostart"
 
