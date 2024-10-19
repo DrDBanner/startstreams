@@ -4,7 +4,8 @@
 
 This script allows you to enjoy video streams in beautifully arranged small windows while keeping CPU usage minimal. macOS only sorry.
 
-![screenshot](https://github.com/user-attachments/assets/8adb62a1-0515-48b2-8a49-8cabde01f480)
+![sc1](https://github.com/user-attachments/assets/a02afcea-b932-4a65-9c29-e774e333121c)
+
 
 ## Notes
 
@@ -23,7 +24,7 @@ This script allows you to enjoy video streams in beautifully arranged small wind
 To get started, follow these steps:
 
 1. Open Terminal by pressing **[CMD] + [Space]**, typing "Terminal", and hitting **[ENTER]**.
-2. Copy and paste the following command into the terminal:
+2. Copy and paste the following command into the terminal for installation and for updating the script to the latest version:
 
    ```bash
    curl -O https://raw.githubusercontent.com/DrDBanner/startstreams/refs/heads/main/startstreams.sh && chmod +x startstreams.sh
