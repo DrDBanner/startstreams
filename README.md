@@ -17,7 +17,7 @@ This script allows you to enjoy video streams in beautifully arranged small wind
 - If you have a Twitch channel subscription and do not provide your OAuth key, you may encounter commercial breaks during streams.
 - During first run a json file is created. Within that file you can customize the streams and channels and put your twitch oauth key.
 - If you put in a channel URL (e.g.: https://www.youtube.com/@k1m6a) instead of a video url (https://www.youtube.com/@k1m6a/live) the script casts for ALL live streams and starts them automatically.
-- Title/note fields lac of whitespace support. So, just don't put whitespaces.
+- Title/note fields lack of whitespace support. Jq breaks then. So, just don't put whitespaces.
   
 ## Usage
 
