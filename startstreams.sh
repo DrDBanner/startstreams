@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Version 0.02
 # JSON file containing general video stream details and Twitch OAuth Key
 VideoJsonFile="video_channels.json"
 
