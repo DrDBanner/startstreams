@@ -47,4 +47,4 @@ To get your personal OAuth token from Twitch:
 
    `document.cookie.split("; ").find(item => item.startsWith("auth-token="))?.split("=")[1]`
 
-4. Copy the resulting 30-character alphanumeric string and paste it into the `TwitchOAuthKey` variable in the `startstreams.sh` file.
+4. Copy the resulting 30-character alphanumeric string and paste it into the automatically created `video_channels.json` file.
