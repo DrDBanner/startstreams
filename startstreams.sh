@@ -122,6 +122,14 @@ if ! check_program_installed streamlink; then
     #else
     #echo "Streamlink is already installed."
 fi
+
+# Check and install jq if necessary
+if ! check_program_installed jq; then
+    echo "Jq is not installed. Installing jq..."
+    brew install jq
+    #else
+    #echo "Jq is already installed."
+fi
 }
 
 # Function to start Twitch streams from the JSON file
