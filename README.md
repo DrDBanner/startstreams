@@ -1,8 +1,8 @@
 # startstreams
 
-**Effortlessly Open Multiple Video Streams via VLC Media Player** 
+**Effortlessly Open Multiple Video Streams via VLC Media Player** --macOS only!
 
-This script allows you to enjoy video streams in beautifully arranged small windows while keeping CPU usage minimal. If you add a YouTube Channel URL it casts for all live broacasting streams and plays them all in one go. macOS only sorry.
+This script allows you to enjoy video streams in beautifully arranged small windows while keeping CPU usage minimal. If you add a YouTube Channel URL it casts for all live broacasting streams and plays them all in one go.
 
 ![sc1](https://github.com/user-attachments/assets/a02afcea-b932-4a65-9c29-e774e333121c)
 
