@@ -15,7 +15,7 @@ This script allows you to enjoy video streams in beautifully arranged small wind
 
 - The script automatically installs VLC and Streamlink if they are not already present on your system.
 - If you have a Twitch channel subscription and do not provide your OAuth key, you may encounter commercial breaks during streams.
-- During first run a json file is created. Within that file you can customize the streams and channels and put your twitch oauth key.
+- During first run a json file is created. It comes prepopulated to you, so it starts with content from the get go. Within that file you can customize the streams and channels and put your twitch oauth key.
 - If you put in a channel URL (e.g.: https://www.youtube.com/@k1m6a) instead of a video url (https://www.youtube.com/@k1m6a/live) the script casts for ALL live streams and starts them automatically.
 - Title/note fields lack of whitespace support. Jq breaks then. So, just don't put whitespaces.
   
