@@ -49,3 +49,7 @@ To get your personal OAuth token from Twitch:
    `document.cookie.split("; ").find(item => item.startsWith("auth-token="))?.split("=")[1]`
 
 4. Copy the resulting 30-character alphanumeric string and paste it into the automatically created `video_channels.json` file.
+
+<img width="1684" alt="Bildschirmfoto 2024-10-20 um 16 26 14" src="https://github.com/user-attachments/assets/bbce8d41-0095-4bda-b3d4-011f45e2c85f">
+
+   
