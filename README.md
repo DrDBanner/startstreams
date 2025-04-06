@@ -20,7 +20,6 @@ Just start with `./startstreams.sh` and all your preconfigured streams start ins
    ```./startstreams.sh kill```
 
 - If you have a Twitch channel subscription and do not provide your OAuth key, you may encounter commercial breaks during streams.
-   - If you want to update those at a later point of time put this into the terminal `brew update && brew upgrade` which updates all programs installed with brew in one batch.
 - If you put in a channel URL (e.g.: https://www.youtube.com/@k1m6a) instead of a video url (https://www.youtube.com/@k1m6a/live) the script casts for ALL live streams and starts them automatically.
 - Title/note fields in configuration file lack of whitespace support. Jq breaks then. So, just don't put whitespaces.
   
@@ -47,7 +46,8 @@ To get started, follow these steps:
 
 
 > #### Note
-> - The script automatically installs VLC and Streamlink if they are not already present on your system.    
+> - The script automatically installs VLC and Streamlink if they are not already present on your system.
+>    - If you want to update those at a later point of time put this into the terminal `brew update && brew upgrade` which updates all programs installed with brew in one batch.     
 > - During first run a json file is created. It comes prepopulated to you, so it starts with content from the get go. Within that file you can customize the streams and channels and put your twitch oauth key.
 
 
