@@ -1,11 +1,17 @@
-# startstreams
+# Open multiple video streams (YouTube, Twitch, etc.) via VLC in one batch
 
-**Effortlessly Open Multiple Video Streams via VLC Media Player** --macOS only!
+**startstreams.sh** --macOS only!
 
-This script allows you to enjoy video streams in beautifully arranged small windows while keeping CPU usage minimal. If you add a YouTube Channel URL it casts for all live broacasting streams and plays them all in one go.
+This script allows you to enjoy video streams in beautifully arranged small windows while keeping CPU usage minimal. 
 
 ![sc1](https://github.com/user-attachments/assets/a02afcea-b932-4a65-9c29-e774e333121c)
 
+Just start with `./startstreams.sh` and all your preconfigured streams start instantly in one batch.
+
+## YouTube, Twitch - and more.
+- Youtube channel mode: casts for all live broadcasts of a channel and opens them individually.
+- Twitch streams: Plays twitch streams side by side with other sources.
+- Streamlink: This script makes usage of streamlink. So a TON of sources possible. [Streamlink Plugins](https://streamlink.github.io/plugins.html) 
 
 ## Notes
 
@@ -13,14 +19,12 @@ This script allows you to enjoy video streams in beautifully arranged small wind
 
    ```./startstreams.sh kill```
 
-- The script automatically installs VLC and Streamlink if they are not already present on your system.
 - If you have a Twitch channel subscription and do not provide your OAuth key, you may encounter commercial breaks during streams.
-   - If you want to update those at a later point of time put this into the terminal `brew update && brew upgrade` which updates all programs installed with brew in one batch.    
-- During first run a json file is created. It comes prepopulated to you, so it starts with content from the get go. Within that file you can customize the streams and channels and put your twitch oauth key.
+   - If you want to update those at a later point of time put this into the terminal `brew update && brew upgrade` which updates all programs installed with brew in one batch.
 - If you put in a channel URL (e.g.: https://www.youtube.com/@k1m6a) instead of a video url (https://www.youtube.com/@k1m6a/live) the script casts for ALL live streams and starts them automatically.
-- Title/note fields lack of whitespace support. Jq breaks then. So, just don't put whitespaces.
+- Title/note fields in configuration file lack of whitespace support. Jq breaks then. So, just don't put whitespaces.
   
-## Usage
+## Installation and usage
 
 To get started, follow these steps:
 
@@ -28,7 +32,9 @@ To get started, follow these steps:
 2. Copy and paste the following command into the terminal for installation and for updating the script to the latest version:
 
    ```bash
+
    curl -O https://raw.githubusercontent.com/DrDBanner/startstreams/refs/heads/main/startstreams.sh && chmod +x startstreams.sh
+
    ```
 
 3. Execute the script with:
@@ -38,6 +44,12 @@ To get started, follow these steps:
    or 
 
    `./startstreams.sh`
+
+
+> #### Note
+> - The script automatically installs VLC and Streamlink if they are not already present on your system.    
+> - During first run a json file is created. It comes prepopulated to you, so it starts with content from the get go. Within that file you can customize the streams and channels and put your twitch oauth key.
+
 
 ### How to Obtain Your Twitch OAuth Key
 
