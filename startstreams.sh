@@ -189,7 +189,7 @@ is_youtube_channel() {
     fi
 }
 
-VlcStartupParameters="--playlist-autostart --video-filter=none --deinterlace=0 --deinterlace-mode=discard --no-drop-late-frames --no-skip-frames"
+VlcStartupParameters="--video-filter=none --deinterlace=0 --deinterlace-mode=discard --no-drop-late-frames --no-skip-frames --playlist-autostart"
 
 
 # Function to start General Video streams (YouTube and other video platforms) from the JSON file
