@@ -1,5 +1,5 @@
 #!/bin/bash
-# Version 0.02
+# Version 0.03
 # JSON file containing general video stream details and Twitch OAuth Key
 VideoJsonFile="video_channels.json"
 
@@ -189,7 +189,7 @@ is_youtube_channel() {
     fi
 }
 
-VlcStartupParameters="--playlist-autostart"
+VlcStartupParameters="--playlist-autostart --video-filter=none --deinterlace=0 --deinterlace-mode=discard --no-drop-late-frames --no-skip-frames"
 
 
 # Function to start General Video streams (YouTube and other video platforms) from the JSON file
